@@ -1,0 +1,122 @@
+.fondo {
+    width: 100%;
+    height: 400px;
+    background: url(https://res.cloudinary.com/da9citicc/image/upload/v1700169087/Portafolio/dev.jpg) no-repeat center/cover;
+    opacity: 0.85;
+    
+}
+
+#conTitulo {
+    width: 50%;
+    height: 20%;
+    border: 3px solid black;
+    border-radius: 31px;
+    background-color: rgba(0, 0,    0,  0.5); /* Color de fondo negro */
+    color: white; /* Color del texto blanco */
+    text-align: center; /* Alinear el texto al centro */
+    position: absolute;
+}
+
+#conTitulo span {
+    font-size: large;
+    font-weight: bold;
+}
+
+.otro {
+    position: relative;
+    width: 300px; /* Ajusta el ancho según sea necesario */
+    height: 300px; /* Ajusta la altura según sea necesario */
+}
+
+
+#split-image {
+    width: 13rem;
+    height: 13rem;
+    background: url(https://res.cloudinary.com/da9citicc/image/upload/v1700177091/Portafolio/foto.jpg) no-repeat center/cover;
+    position: absolute;
+    transform: translateY(-50%);
+    
+    border-radius: 50%;
+    
+}
+
+#sobreMI{
+    padding-top: 7%;
+}
+
+.p-2{
+    width: 20%;
+    height: 20%;
+    font-weight: bold;
+    
+}
+
+
+#trabajos{
+    margin-top: 7%;
+    padding: 5% 0 5% 0;
+    background-color: #000000 ;
+    border-radius: 31px;
+    opacity: 0.9;
+}
+
+#trabajos h1{
+    color: white;
+    padding-bottom: 5%;
+}
+#trabajos p{
+   margin-top: 30px;
+    color: white;
+}
+#trabajos img{
+    border-radius: 31px;
+    opacity: 0.5;
+ }
+#trabajos img:hover{
+   opacity: 1;
+}
+
+#trabajos:hover{
+    opacity: 1;
+    width: 110%;
+}
+
+#proyectos{
+    width: 30%;
+    height: 30%;
+    margin-top: 7%;
+    padding: 5% 0 5% 0;
+    background-color: #000000 ;
+    border-radius: 31px;
+    opacity: 0.9;
+}
+
+#proyectos:hover{
+    animation-delay: 1s;
+    opacity: 1;
+    width: 31%;
+    height: 31%;
+}
+
+#contacto{
+    border: 3px solid black;
+    border-radius: 31px;
+    padding: 5% ;
+}
+#btnVolver{
+    position: fixed;
+    margin: 4% 0 4% 0;
+}
+#btnVolver button{
+    width: 30%;
+}
+
+#scrollToTopBtn{
+    bottom: 20px; /* Ajusta la posición vertical según sea necesario */
+    right: 20px; 
+    position: fixed;
+    z-index: 1000;
+    
+    background: rgba(0, 0,    0,  0.5);
+    
+}
